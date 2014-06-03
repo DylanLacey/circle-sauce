@@ -1,0 +1,248 @@
+2014-06-02 19:40:27,967 - sauce_connect:601 - INFO - / Starting \
+2014-06-02 19:40:27,970 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-02 19:40:27,976 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-02 19:40:27,977 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'dylanatsauce', 'ports': ['63553'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-02 19:40:27,980 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['63553'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-02 19:40:27,982 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['63553']
+2014-06-02 19:40:27,996 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:63553 in 7ms
+2014-06-02 19:40:29,279 - sauce_connect:265 - INFO - {"no_ssl_bump_domains":null,"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["63553"],"Ports":["80"],"Platform":"Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-02 19:40:33,500 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (db3750bc5d214f59aa5e8b6595161b60)
+2014-06-02 19:40:33,903 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-02 19:40:54,532 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76234.miso.saucelabs.com
+2014-06-02 19:40:54,549 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:63553 in 0ms
+2014-06-02 19:40:54,553 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-02 19:40:54,555 - sauce_connect:696 - INFO - Connecting to tunnel host maki76234.miso.saucelabs.com as dylanatsauce
+2014-06-02 19:40:54,721 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 63572
+2014-06-02 19:40:54,729 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-02 19:40:56,039 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-02 19:40:56,048 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 2ac36243c6e74306a6a14b2ad3470207
+2014-06-02 19:40:56,051 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-02 19:41:14,588 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:41:15,053 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 500 (465ms, 316 bytes)
+2014-06-02 19:41:30,375 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 19:41:31,339 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (964ms, 0 bytes)
+2014-06-02 19:41:31,806 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 19:41:32,296 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:41:32,305 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 500 (8ms, 316 bytes)
+2014-06-02 19:41:32,914 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/favicon.ico
+2014-06-02 19:41:32,918 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/favicon.ico -> 200 (5ms, 0 bytes)
+2014-06-02 19:41:33,163 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (1356ms, 300000 bytes)
+2014-06-02 19:42:00,500 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:42:00,509 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 500 (9ms, 316 bytes)
+2014-06-02 19:42:03,411 - sauce_connect:0 - INFO - Request started: POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS
+2014-06-02 19:42:05,354 - sauce_connect:0 - INFO - POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS -> 200 (1943ms, 1104 bytes)
+2014-06-02 19:42:14,855 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:42:14,861 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 500 (6ms, 316 bytes)
+2014-06-02 19:42:22,119 - sauce_connect:0 - INFO - received SIGINT
+2014-06-02 19:49:03,209 - sauce_connect:601 - INFO - / Starting \
+2014-06-02 19:49:03,213 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-02 19:49:03,219 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-02 19:49:03,220 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'dylanatsauce', 'ports': ['63843'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-02 19:49:03,221 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['63843'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-02 19:49:03,224 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['63843']
+2014-06-02 19:49:03,234 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:63843 in 4ms
+2014-06-02 19:49:04,865 - sauce_connect:265 - INFO - {"no_ssl_bump_domains":null,"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["63843"],"Ports":["80"],"Platform":"Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-02 19:49:08,994 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (5e2d4759ca9645f8b6e0aadb08e4f1b0)
+2014-06-02 19:49:09,398 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-02 19:49:40,197 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki76049.miso.saucelabs.com
+2014-06-02 19:49:40,211 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:63843 in 0ms
+2014-06-02 19:49:40,217 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-02 19:49:40,219 - sauce_connect:696 - INFO - Connecting to tunnel host maki76049.miso.saucelabs.com as dylanatsauce
+2014-06-02 19:49:40,348 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 63860
+2014-06-02 19:49:40,352 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-02 19:49:41,854 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-02 19:49:41,861 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 2cd8a9d960844f2eb1d1754f71ea663a
+2014-06-02 19:49:41,864 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-02 19:49:59,651 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:50:01,438 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (1785ms, 322 bytes)
+2014-06-02 19:50:01,848 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:50:01,868 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (20ms, 0 bytes)
+2014-06-02 19:50:02,223 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:50:02,250 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (27ms, 318020 bytes)
+2014-06-02 19:50:09,183 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/favicon.ico
+2014-06-02 19:50:09,190 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/favicon.ico -> 200 (7ms, 0 bytes)
+2014-06-02 19:50:22,311 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 19:50:23,313 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (1004ms, 0 bytes)
+2014-06-02 19:50:23,796 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 19:50:24,040 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:50:24,051 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (10ms, 322 bytes)
+2014-06-02 19:50:24,536 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:50:24,536 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:50:24,543 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (8ms, 0 bytes)
+2014-06-02 19:50:24,552 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (16ms, 318020 bytes)
+2014-06-02 19:50:25,967 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (2170ms, 300000 bytes)
+2014-06-02 19:50:58,846 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:50:58,857 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (9ms, 322 bytes)
+2014-06-02 19:50:59,345 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:50:59,346 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:50:59,359 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (14ms, 0 bytes)
+2014-06-02 19:50:59,368 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (22ms, 318020 bytes)
+2014-06-02 19:51:07,161 - sauce_connect:0 - INFO - Request started: POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS
+2014-06-02 19:51:08,759 - sauce_connect:0 - INFO - POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS -> 200 (1599ms, 1104 bytes)
+2014-06-02 19:51:18,434 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:51:18,444 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (9ms, 322 bytes)
+2014-06-02 19:51:18,733 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:51:18,740 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (7ms, 0 bytes)
+2014-06-02 19:51:19,092 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:51:19,101 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (11ms, 318020 bytes)
+2014-06-02 19:51:48,651 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 19:51:49,650 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (1000ms, 0 bytes)
+2014-06-02 19:51:50,025 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 19:51:51,469 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (1443ms, 300000 bytes)
+2014-06-02 19:52:19,315 - sauce_connect:0 - INFO - received SIGINT
+2014-06-02 19:53:36,013 - sauce_connect:601 - INFO - / Starting \
+2014-06-02 19:53:36,019 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-02 19:53:36,026 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-02 19:53:36,028 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'dylanatsauce', 'ports': ['64018'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-02 19:53:36,029 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['64018'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-02 19:53:36,029 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['64018']
+2014-06-02 19:53:36,039 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64018 in 5ms
+2014-06-02 19:53:37,392 - sauce_connect:265 - INFO - {"no_ssl_bump_domains":null,"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["64018"],"Ports":["80"],"Platform":"Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-02 19:53:41,371 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (ef236bf0475e423c92903daa376a3982)
+2014-06-02 19:53:41,805 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-02 19:54:19,581 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77080.miso.saucelabs.com
+2014-06-02 19:54:19,595 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64018 in 1ms
+2014-06-02 19:54:19,598 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-02 19:54:19,599 - sauce_connect:696 - INFO - Connecting to tunnel host maki77080.miso.saucelabs.com as dylanatsauce
+2014-06-02 19:54:19,861 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 64035
+2014-06-02 19:54:19,867 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-02 19:54:21,094 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-02 19:54:21,099 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 7bf39b9e33664b42892fc04a294824ba
+2014-06-02 19:54:21,102 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-02 19:54:38,990 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:54:39,520 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (531ms, 322 bytes)
+2014-06-02 19:54:40,348 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:54:40,348 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:54:40,361 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (13ms, 0 bytes)
+2014-06-02 19:54:40,385 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (38ms, 318020 bytes)
+2014-06-02 19:54:48,348 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/favicon.ico
+2014-06-02 19:54:48,355 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/favicon.ico -> 200 (6ms, 0 bytes)
+2014-06-02 19:55:00,948 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 19:55:02,099 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (1150ms, 0 bytes)
+2014-06-02 19:55:02,559 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 19:55:03,161 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:55:03,171 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (10ms, 322 bytes)
+2014-06-02 19:55:04,657 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:55:04,658 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:55:04,664 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (8ms, 0 bytes)
+2014-06-02 19:55:04,671 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (14ms, 318020 bytes)
+2014-06-02 19:55:06,516 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (3956ms, 300000 bytes)
+2014-06-02 19:55:38,553 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:55:38,562 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (9ms, 322 bytes)
+2014-06-02 19:55:38,862 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:55:38,875 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (11ms, 318020 bytes)
+2014-06-02 19:55:39,085 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:55:39,091 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (5ms, 0 bytes)
+2014-06-02 19:55:54,706 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 19:55:54,713 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (7ms, 322 bytes)
+2014-06-02 19:55:55,105 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 19:55:55,112 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (7ms, 0 bytes)
+2014-06-02 19:55:55,430 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 19:55:55,441 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (10ms, 318020 bytes)
+2014-06-02 19:56:28,095 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 19:56:29,187 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (1092ms, 0 bytes)
+2014-06-02 19:56:29,542 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 19:56:31,289 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (1747ms, 300000 bytes)
+2014-06-02 19:57:00,280 - sauce_connect:0 - INFO - received SIGINT
+2014-06-02 20:03:23,880 - sauce_connect:601 - INFO - / Starting \
+2014-06-02 20:03:23,885 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-02 20:03:23,892 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-02 20:03:23,894 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'dylanatsauce', 'ports': ['64365'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-02 20:03:23,895 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['64365'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-02 20:03:23,895 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['64365']
+2014-06-02 20:03:23,904 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64365 in 3ms
+2014-06-02 20:03:26,759 - sauce_connect:265 - INFO - {"no_ssl_bump_domains":null,"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["64365"],"Ports":["80"],"Platform":"Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-02 20:03:30,417 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (983547b58cb2464989e115fc303d6793)
+2014-06-02 20:03:30,813 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-02 20:03:44,421 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77193.miso.saucelabs.com
+2014-06-02 20:03:44,436 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64365 in 0ms
+2014-06-02 20:03:44,438 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-02 20:03:44,440 - sauce_connect:696 - INFO - Connecting to tunnel host maki77193.miso.saucelabs.com as dylanatsauce
+2014-06-02 20:03:44,721 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 64373
+2014-06-02 20:03:44,726 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-02 20:03:45,880 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-02 20:03:45,888 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 1b1cba469dac4d2abaa72ff8bc0bf7c4
+2014-06-02 20:03:45,891 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-02 20:04:05,319 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:04:05,757 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (439ms, 322 bytes)
+2014-06-02 20:04:06,466 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:04:06,467 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:04:06,477 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (11ms, 0 bytes)
+2014-06-02 20:04:06,490 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (24ms, 318020 bytes)
+2014-06-02 20:04:14,835 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/favicon.ico
+2014-06-02 20:04:14,842 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/favicon.ico -> 200 (7ms, 0 bytes)
+2014-06-02 20:04:28,371 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 20:04:29,384 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (1014ms, 0 bytes)
+2014-06-02 20:04:29,661 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 20:04:29,888 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:04:29,898 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (8ms, 322 bytes)
+2014-06-02 20:04:30,391 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:04:30,391 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:04:30,398 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (7ms, 0 bytes)
+2014-06-02 20:04:30,407 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (15ms, 318020 bytes)
+2014-06-02 20:04:32,798 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (3135ms, 300000 bytes)
+2014-06-02 20:05:00,924 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:05:00,936 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (11ms, 322 bytes)
+2014-06-02 20:05:01,437 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:05:01,437 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:05:01,448 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (11ms, 0 bytes)
+2014-06-02 20:05:01,450 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (15ms, 318020 bytes)
+2014-06-02 20:05:17,191 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:05:17,198 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (7ms, 322 bytes)
+2014-06-02 20:05:17,818 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:05:17,818 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:05:17,832 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (13ms, 0 bytes)
+2014-06-02 20:05:17,835 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (18ms, 318020 bytes)
+2014-06-02 20:05:30,108 - sauce_connect:0 - INFO - received SIGINT
+2014-06-02 20:12:28,483 - sauce_connect:601 - INFO - / Starting \
+2014-06-02 20:12:28,492 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-02 20:12:28,497 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-02 20:12:28,500 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'dylanatsauce', 'ports': ['64729'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-02 20:12:28,500 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['64729'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-02 20:12:28,502 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['64729']
+2014-06-02 20:12:28,513 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64729 in 4ms
+2014-06-02 20:12:29,868 - sauce_connect:265 - INFO - {"no_ssl_bump_domains":null,"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["64729"],"Ports":["80"],"Platform":"Java-1.7.0_25-Java_HotSpot-TM-_64-Bit_Server_VM,_23.25-b01,_Oracle_Corporation-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-02 20:12:33,706 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (fb296d4ed09e4ba5a35b94d2a72fb09e)
+2014-06-02 20:12:34,109 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-02 20:12:57,927 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77042.miso.saucelabs.com
+2014-06-02 20:12:57,940 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:64729 in 0ms
+2014-06-02 20:12:57,944 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-02 20:12:57,944 - sauce_connect:696 - INFO - Connecting to tunnel host maki77042.miso.saucelabs.com as dylanatsauce
+2014-06-02 20:12:58,056 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 64741
+2014-06-02 20:12:58,062 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-02 20:12:59,456 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-02 20:12:59,463 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 82d5f3aca6a74661b7e969ce35cf6b15
+2014-06-02 20:12:59,466 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-02 20:13:15,476 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:13:15,970 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (493ms, 330 bytes)
+2014-06-02 20:13:16,490 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:13:16,490 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:13:16,500 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (10ms, 0 bytes)
+2014-06-02 20:13:16,512 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (21ms, 318020 bytes)
+2014-06-02 20:13:23,811 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/favicon.ico
+2014-06-02 20:13:23,816 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/favicon.ico -> 200 (6ms, 0 bytes)
+2014-06-02 20:13:35,993 - sauce_connect:0 - INFO - Request started: GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US
+2014-06-02 20:13:36,980 - sauce_connect:0 - INFO - GET http://download.mozilla.org/?product=firefox-27.0.1-partial-27.0&os=win&lang=en-US -> 302 (987ms, 0 bytes)
+2014-06-02 20:13:37,480 - sauce_connect:0 - INFO - Request started: GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar
+2014-06-02 20:13:37,736 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:13:37,746 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (9ms, 330 bytes)
+2014-06-02 20:13:38,349 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:13:38,355 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (6ms, 0 bytes)
+2014-06-02 20:13:38,769 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:13:38,780 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (12ms, 318020 bytes)
+2014-06-02 20:13:41,637 - sauce_connect:0 - INFO - GET http://download.cdn.mozilla.net/pub/firefox/releases/27.0.1/update/win32/en-US/firefox-27.0-27.0.1.partial.mar -> 206 (4157ms, 300000 bytes)
+2014-06-02 20:14:11,941 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:14:11,948 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (7ms, 330 bytes)
+2014-06-02 20:14:12,302 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:14:12,306 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (5ms, 0 bytes)
+2014-06-02 20:14:12,553 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:14:12,571 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (18ms, 318020 bytes)
+2014-06-02 20:14:17,387 - sauce_connect:0 - INFO - Request started: POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS
+2014-06-02 20:14:21,780 - sauce_connect:0 - INFO - POST https://albert.apple.com/WebObjects/ALUnbrick.woa/wa/deviceActivation?device=MacOS -> 200 (4393ms, 1104 bytes)
+2014-06-02 20:14:29,553 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/
+2014-06-02 20:14:29,562 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/ -> 200 (7ms, 330 bytes)
+2014-06-02 20:14:30,084 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.js
+2014-06-02 20:14:30,084 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:3000/assets/application.css
+2014-06-02 20:14:30,095 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.css -> 200 (11ms, 0 bytes)
+2014-06-02 20:14:30,096 - sauce_connect:0 - INFO - GET http://127.0.0.1:3000/assets/application.js -> 200 (12ms, 318020 bytes)
+2014-06-02 20:14:41,019 - sauce_connect:0 - INFO - received SIGINT
